@@ -9,7 +9,7 @@
 import UIKit
 
 class BorderButton: UIButton {
-    
+    //Test comment
     override func awakeFromNib() {
         super.awakeFromNib()
         layer.borderWidth = 2.0
