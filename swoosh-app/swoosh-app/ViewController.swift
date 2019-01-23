@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // These were in the lesson from programmatically changing how views are laid out - there may be an easier way with auto layout!
+    @IBOutlet weak var bgImg: UIImageView!
+    @IBOutlet weak var swoosh: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
